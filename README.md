@@ -33,4 +33,17 @@ c) Provide tables or graphs of miss rate vs cache size and block size, for vario
 ====== Working Set K=256 ======
 <img width="478" height="376" alt="image" src="https://github.com/user-attachments/assets/f69a2252-2477-48ba-a105-9e4b7c267000" />
 
+Effects of Various Cache and Block Sizes of Various Memory Access Patterns:
+
+Sequential:
+For the sequential pattern, the miss rate becomes less as the block size gets bigger. The cache size doesn't really affect this pattern at all since for all the Cache the miss rate stays the same. 
+
+Stride 4: 
+For the Stride 4 pattern, the miss rate stays consist at 1.0000 until the very last one which is cut in half. This is because of the large size of the last block whihc is 32 bytes. 
+
+Conflict:
+For the Conflict Pattern, the smallest Cache which is 256 is affected by the biggest block size. The bigger the Cache gets the more consistent the miss rate is with all the sizes of Cache. 
+
+Working Set K = 256:
+For the Working Set Pattern, the miss rates seem to drop by atleast 1/4 each time the block size increases. The cache size doesn't seem to affect this outcome. 
 
