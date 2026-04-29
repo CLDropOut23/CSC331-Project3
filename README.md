@@ -39,11 +39,11 @@ Sequential:
 For the sequential pattern, the miss rate becomes less as the block size gets bigger. The cache size doesn't really affect this pattern at all since for all the Cache the miss rate stays the same. 
 
 Stride 4: 
-For the Stride 4 pattern, the miss rate stays consist at 1.0000 until the very last one which is cut in half. This is because of the large size of the last block whihc is 32 bytes. 
+For the Stride 4 pattern, the miss rate stays consist at 1.0000 until the very last one which is cut in half. This is because of the large size of the last block which is 32 bytes. 
 
 Conflict:
-For the Conflict Pattern, the smallest Cache which is 256 is affected by the biggest block size. The bigger the Cache gets the more consistent the miss rate is with all the sizes of Cache. 
+For the Conflict Pattern, the smallest Cache which is 256 is affected by the biggest block size which is 32 bytes. If the Cache is bigger than 256, it gets more consistent with the miss rate. The miss rate seems to be the same with all the rest of the Caches and Block Sizes. Again the higher the block size, the lower the miss rate.
 
 Working Set K = 256:
-For the Working Set Pattern, the miss rates seem to drop by atleast 1/4 each time the block size increases. The cache size doesn't seem to affect this outcome. 
+For the Working Set Pattern, the miss rates seem to drop by atleast 1/4 each time the block size increases. The cache size doesn't seem to affect this outcome. The Block size once again really affects the miss rate.
 
