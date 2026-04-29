@@ -19,3 +19,18 @@ b) if yes, five screenshots showing the successful execution of your program,
 
 
 c) Provide tables or graphs of miss rate vs cache size and block size, for various memory access patterns. And explain the effects of various cache and block sizes, and various memory access patterns (sequential, stride, conflicts, and working set size) on the cache miss rate.  
+
+====== Sequential ========
+<img width="470" height="368" alt="image" src="https://github.com/user-attachments/assets/be1632aa-0f94-4137-a16d-ea9cf0cb1eb3" />
+
+
+====== Stride 4 =======
+<img width="470" height="370" alt="image" src="https://github.com/user-attachments/assets/3a792d1e-aa50-468e-86db-050147e4857a" />
+
+====== Conflict ======
+<img width="472" height="372" alt="image" src="https://github.com/user-attachments/assets/f2312ac2-078c-42f3-b091-519e284d43a0" />
+
+====== Working Set K=256 ======
+<img width="478" height="376" alt="image" src="https://github.com/user-attachments/assets/f69a2252-2477-48ba-a105-9e4b7c267000" />
+
+
